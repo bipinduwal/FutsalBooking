@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    place-content: center;
+    margin:auto;
+    width:75%;
+    text-align: center;
+    font-size: large;
+  }
+
+  thead{
+    background-color: #5793f3;
+    color: white;
+  }
+  thead tr{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  td,th{
+    padding: 8px;
+  }
+  tbody tr:nth-child(even){
+    background-color: #b1d1f4;
+  }
+  tbody tr:hover{
+    background-color: #d0e3ee;
+  }
+  button:disabled {
+    opacity: 0.5;
+  }
+  .btn-cancel{
+    @apply px-4 py-1 bg-red-500 rounded-lg text-white
+  }
+  .btn-confirm{
+    @apply px-4 py-1 bg-green-500 rounded-lg text-white
+  }
+
+  .active{
+    @apply bg-blue-500
+  }
