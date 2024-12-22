@@ -316,7 +316,7 @@ function Booking() {
               </select>
               {/* <button onClick={() => setShowPaymentPage(true)} */}
               <button
-                onClick={handlePaymentProcess}
+                onClick={handleSubmitPayment}
                 className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg shadow hover:bg-blue-600 transition duration-300"
               >
                 Go to Payment
